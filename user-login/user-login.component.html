@@ -1,0 +1,27 @@
+<p>user-login works!</p>
+<div class="bg-img" class="container">
+    
+<form #loginForm="ngForm" (ngSubmit)="validateLogin(loginForm)">  
+    
+        <table>
+            <tr>
+                <td><input type="hidden" name="title" required [(ngModel)]="title" readonly></td>
+             </tr>
+            <tr>
+               <td>Username : </td> <td><input type="text" placeholder="Enter Username" name="userName" required ngModel></td>
+            </tr>
+          
+        <br> 
+
+        <tr>
+            <td>Password :</td> <td><input type="password" placeholder="Enter Password" name="password" required ngModel></td>
+        </tr>
+            
+        <br>  
+        <tr>
+            <td><button type="submit" value="SAVE" >Login</button></td> <td> <button type="submit" (click)="signup()">Signup</button></td>
+        </tr> 
+    </table>  
+    
+</form> 
+</div>
