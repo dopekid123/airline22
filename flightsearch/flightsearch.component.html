@@ -1,0 +1,101 @@
+<!-- <div>
+    
+  
+    Leaving From 
+    <select [(ngModel)] ="srchfromdept">
+      <option value="mumbai">Mumbai</option>
+    <option value="hyderabad" >Hyderabad</option>
+    <option value="goa">Goa</option>
+
+    </select>
+
+    Arrival To
+    <select [(ngModel)] ="srchtoarrive">
+      <option value="chennai">Chennai</option>
+    <option value="goa">Goa</option>
+    <option value="mumbai">Mumbai</option>
+    </select> 
+    
+    Enter Departure date<input type="text" [(ngModel)] ="srchdepart"> <br>
+    Enter Return date<input type="text" [(ngModel)] ="srcharrival"> <br>
+    <button (click)="searchmethod()">Search</button>
+</div> -->
+
+ <!-- <table class="table table-striped"> 
+    
+    <tr *ngFor="let f of flightList">
+      <td>{{f.flightNo}}</td>
+        <td>{{f.flightName}}</td>
+        <td>{{ f.fromDept }}</td>
+        <td>{{ f.toArrive }}</td>
+        <td>{{ f.depart }}</td>
+        <td>{{ f.arrival}}</td>
+        <td><button type="button" class="btn btn-outline-primary" (click)="booking()">Book Now</button></td>
+        
+    </tr>
+</table> 
+
+<button (click)="profile()">Profile</button>-->
+
+
+<p>Welcome </p>
+
+
+
+    
+  <!-- Leaving From <input type="text" [(ngModel)] ="srchfromdept"><br>
+    Arrival To<input type="text" [(ngModel)] ="srchtoarrive"> <br> -->
+    <div class="container">
+    
+      
+        <tr>
+          <label for="Leaving From"><b>Leaving From</b></label>
+           <select [(ngModel)] ="srchfromdept">
+          <option value="mumbai">Mumbai</option>
+           <option value="delhi">Delhi</option>
+           <option value="goa" >Goa</option>
+        </select>
+      </tr>
+        <tr>
+          <label for="To Arrive"><b>To Arrive</b></label>
+          <select [(ngModel)] ="srchtoarrive">
+          <option value="chennai">Chennai</option>
+          <option value="kolkata">Kolkata</option>
+          <option value="hyderabad" >Hyderabad</option>
+        </select> 
+        </tr>
+      
+      
+       <tr>
+      <label for="depdate"><b>Enter Departure date</b></label>
+      <input type="date" [(ngModel)] ="srchdepart" > <br>
+      <label for="retdate"><b>Enter Return date</b></label>
+      <input type="date" [(ngModel)] ="srcharrival"> <br>
+      <button (click)="searchmethod()">Search</button>
+    </tr>
+
+
+  
+    
+  
+    
+
+
+ <table class="table table-striped" > 
+    
+    <tr *ngFor="let f of flightList">
+      <td>{{f.flightNo}}</td>
+        <td>{{f.flightName}}</td>
+        <td>{{ f.fromDept }}</td>
+        <td>{{ f.toArrive }}</td>
+        <td>{{ f.depart }}</td>
+        <td>{{ f.arrival}}</td>
+        <td><button type="button" class="btn btn-outline-primary" (click)="booking()">Book Now</button></td>
+    
+        
+    </tr>
+</table> 
+    </div>
+
+
+<img class="image" src="https://www.skyblue.aero/wp-content/uploads/2019/08/banner-flights.jpg">

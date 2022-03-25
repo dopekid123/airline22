@@ -1,0 +1,105 @@
+/* .container{
+    width: 500px;
+    height:500px ;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 20px
+    
+}
+
+.row{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.topnav{
+    left: 200px;
+} */
+body, html {
+    align-content: center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+.bg-img {
+    /* The image used */
+    background-image: url("https://www.skyblue.aero/wp-content/uploads/2019/08/banner-flights.jpg");
+    size: 500%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .padding {
+    padding: 5rem !important
+}
+.border{
+    position: absolute;
+    left: 80px;
+    top: 100px;
+    color: white;
+}
+.btn-blue {
+  background: #44c5ee;
+  padding: 10px 28px;
+  border: 2px solid #44c5ee;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+  outline: none !important
+}
+
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    left: 0;
+    height: 5;
+    margin: 70px;
+    align-items: center;
+    max-width: 500px;
+    padding: 80px;
+    background-color: whitesmoke;
+    color: teal;
+  }
+ 
+  
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: burlywood;
+    color: brown;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+

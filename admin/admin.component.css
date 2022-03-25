@@ -1,0 +1,30 @@
+body, html {
+    align-content: center;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container {
+    position: absolute;
+
+    height: 550px;
+    margin: 70px;
+    align-items: center;
+    max-width: 500px;
+    padding: 80px;
+    background-color: white;
+    left:80px;
+    bottom: 520px;
+    top: 100px;
+
+  }
+  image {
+    /* The image used */
+    background-image: url("https://img.wallpapersafari.com/desktop/1600/900/79/24/u2pnlQ.jpg");
+    size: 500%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }

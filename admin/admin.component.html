@@ -1,0 +1,44 @@
+
+<p>admin works!</p>
+<body>
+<form #addadminForm="ngForm"  class="form-horizontal" (ngSubmit)="addFlight(addadminForm)" class="container">
+    <table>
+        <tr>
+            <td>FlightNo</td><td> <input type="number" class="form-control" name="flightNo" placeholder="Enter Flight No" ngModel> </td>
+        </tr>
+        <tr>
+            <td>FlightName</td><td> <input type="text" class="form-control" name="flightName" placeholder="Enter Flight No" ngModel> </td>
+        </tr>
+        <tr>
+            <td>From</td><td> <input type="text" class="form-control" name="fromDept" placeholder="from "  ngModel> </td>
+        </tr>
+        <tr>
+            <td>To</td><td> <input type="text" class="form-control" name="toArrive" placeholder="to "  ngModel> </td>
+        </tr>
+        <tr>
+            <td>depart</td><td> <input type="date" class="form-control" name="depart"  ngModel> </td>
+        </tr>
+        <tr>
+            <td>arrival</td><td> <input type="date" class="form-control" name="arrival" ngModel> </td>
+        </tr>
+        <tr>
+            <td>Economy Price</td><td> <input type="text" class="form-control" name="flightEcoPrice" placeholder="Enter Economy Price" ngModel> </td>
+        </tr>
+        <tr>
+            <td>Business Price</td><td> <input type="text" class="form-control" name="flightBusPrice" placeholder="Enter Business Price" ngModel> </td>
+        </tr>
+        <tr>
+            <td>Duration</td><td> <input type="number" class="form-control" name="duration" placeholder="duration" ngModel> </td>
+        </tr>
+        <tr>
+            <td>Cabin</td><td> <input type="text" class="form-control" name="cabin" placeholder="cabin" ngModel> </td>
+        </tr>
+        <tr>
+            <td><input type="reset" value="RESET"  class="btn btn-primary"></td>
+            <td> <input type="submit" value="SAVE"  class="btn btn-primary"> </td>
+        </tr>
+    </table>
+   
+</form>
+</body>
+<img class="image"   src="https://www.skyblue.aero/wp-content/uploads/2019/08/banner-flights.jpg">
